@@ -50,3 +50,31 @@ var daysOfTheWeek = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sa
 for(let i = 0; i < daysOfTheWeek.length; i++){
     console.log("Check for pests on " + daysOfTheWeek[i] + "!");
 }
+
+// Personal experiment with switches
+var waterDay = "Sunday";
+switch(waterDay) {
+    case "Monday":
+        console.log("It is not water day.");
+        break;
+    case "Tuesday":
+        console.log("It is not water day.");
+        break;
+    case "Wednesday":
+        console.log("It is not water day.");
+        break;
+    case "Thursday":
+        console.log("It is not water day.");
+        break;
+    case "Frdiay":
+        console.log("It is not water day.");
+        break;
+    case "Saturday":
+        console.log("It is not water day.");
+        break;
+    case "Sunday":
+        console.log("It is water day, please water the plant.");
+        break;
+    default:
+        console.log("Huh? What day is it?");
+}
